@@ -10,7 +10,7 @@ import RegionStrip from "@/components/region-strip";
 import { Listing } from "@/lib/types";
 import { categories, listings } from "@/lib/mock-data";
 
-export default function Home() {
+const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [visibleListings, setVisibleListings] = useState<Listing[]>([]);
   const [searchValue, setSearchValue] = useState("");
@@ -95,4 +95,6 @@ export default function Home() {
       <BottomNav active="explore" />
     </main>
   );
-}
+};
+
+export default Home;

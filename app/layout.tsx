@@ -6,14 +6,16 @@ export const metadata: Metadata = {
   description: "Proyecto Next.js 16 con TypeScript y Tailwind CSS",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html lang="es">
       <body className="antialiased">{children}</body>
     </html>
   );
-}
+};
+
+export default RootLayout;

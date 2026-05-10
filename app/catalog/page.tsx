@@ -8,7 +8,7 @@ import MapPlaceholder from "@/components/map-placeholder";
 import Navbar from "@/components/navbar/navbar";
 import { listings } from "@/lib/mock-data";
 
-export default function CatalogPage() {
+const CatalogPage = () => {
   const [searchValue, setSearchValue] = useState("");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
   const [isLoading, setIsLoading] = useState(true);
@@ -88,4 +88,6 @@ export default function CatalogPage() {
       <BottomNav active="explore" />
     </main>
   );
-}
+};
+
+export default CatalogPage;

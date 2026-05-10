@@ -3,9 +3,9 @@ type MapPlaceholderProps = {
 };
 
 const pins = [
-  { id: "a", left: "14%", top: "34%", price: "EUR 92" },
-  { id: "b", left: "58%", top: "24%", price: "EUR 128" },
-  { id: "c", left: "42%", top: "62%", price: "EUR 110" },
+  { id: "a", positionClass: "left-[14%] top-[34%]", price: "EUR 92" },
+  { id: "b", positionClass: "left-[58%] top-[24%]", price: "EUR 128" },
+  { id: "c", positionClass: "left-[42%] top-[62%]", price: "EUR 110" },
 ];
 
 const MapPlaceholder = ({ compact = false }: MapPlaceholderProps) => {
@@ -15,9 +15,8 @@ const MapPlaceholder = ({ compact = false }: MapPlaceholderProps) => {
         <div className="absolute inset-0 opacity-50 [background-image:linear-gradient(to_right,#0000000a_1px,transparent_1px),linear-gradient(to_bottom,#0000000a_1px,transparent_1px)] [background-size:28px_28px]" />
         {pins.map((pin) => (
           <span
-            className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full border border-black/10 bg-white px-2 py-1 text-[10px] font-semibold shadow"
+            className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-full border border-black/10 bg-white px-2 py-1 text-[10px] font-semibold shadow ${pin.positionClass}`}
             key={pin.id}
-            style={{ left: pin.left, top: pin.top }}
           >
             {pin.price}
           </span>

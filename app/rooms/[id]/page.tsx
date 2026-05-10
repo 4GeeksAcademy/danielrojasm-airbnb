@@ -4,8 +4,10 @@ type RoomPageProps = {
   params: Promise<{ id: string }>;
 };
 
-export default async function RoomPage({ params }: RoomPageProps) {
+const RoomPage = async ({ params }: RoomPageProps) => {
   const { id } = await params;
 
   return <RoomDetailPage roomId={id} />;
-}
+};
+
+export default RoomPage;
