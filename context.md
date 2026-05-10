@@ -19,7 +19,7 @@
 - Filtros en tiempo real por busqueda y categoria.
 
 ### 2) Catalogo (/catalog)
-- Navbar compacto (busqueda + filtros).
+- Navbar sticky con buscador.
 - Header con cantidad de resultados.
 - Orden por precio (ascendente/descendente).
 - Listado reutilizando ListingCard.
@@ -29,7 +29,7 @@
   - Desktop: mapa al lado derecho.
 
 ### 3) Detalle de habitacion (/rooms/[id])
-- Navbar de acciones (volver, compartir, favorito).
+- Navbar sticky con buscador (mismo componente compartido).
 - Carga simulada por id.
 - Galeria superior con anterior/siguiente.
 - Header de la habitacion (titulo, rating, reseñas, ubicacion).
@@ -44,20 +44,16 @@
 - Estructura base:
   - Zona izquierda: logo + link a Home.
   - Zona central: buscador.
-  - Zona derecha: boton de menu de usuario y acciones rapidas.
+  - Zona derecha: boton de menu de usuario.
 - Elementos del buscador:
   - Icono de lupa.
-  - Placeholder de busqueda.
+  - Placeholder de busqueda ("Search stays").
   - Estado focus/active visible.
-  - Boton limpiar texto (cuando hay valor).
+  - Boton de submit con icono de lupa.
 - Comportamiento:
   - Sticky en la parte superior.
-  - Mantiene altura compacta en scroll.
-  - Debe ser reutilizable con variantes por pagina.
-- Variantes por pagina:
-  - Home: buscador completo.
-  - Catalogo: buscador compacto + acceso a filtros.
-  - Detalle: barra superior de acciones (volver, compartir, favorito).
+  - Agrega sombra al hacer scroll.
+  - Reutilizable en Home, Catalogo y Detalle.
 
 ### ListingCard
 - Se reutiliza en Home y Catalogo.

@@ -4,7 +4,7 @@ type PrimaryButtonProps = {
   children: ReactNode;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
-export function PrimaryButton({ children, className = "", ...props }: PrimaryButtonProps) {
+const PrimaryButton = ({ children, className = "", ...props }: PrimaryButtonProps) => {
   return (
     <button
       className={`rounded-xl bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-black/85 ${className}`.trim()}
@@ -14,4 +14,6 @@ export function PrimaryButton({ children, className = "", ...props }: PrimaryBut
       {children}
     </button>
   );
-}
+};
+
+export default PrimaryButton;
