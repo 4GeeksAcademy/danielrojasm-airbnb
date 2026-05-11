@@ -48,7 +48,7 @@ const RoomDetailPage = ({ roomId }: RoomDetailPageProps) => {
         <RoomGallerySection
           imageCount={room.images.length}
           imageIndex={imageIndex}
-          imageTone={room.images[imageIndex]}
+          imageUrl={room.images[imageIndex]}
           onNext={nextImage}
           onPrev={prevImage}
         />

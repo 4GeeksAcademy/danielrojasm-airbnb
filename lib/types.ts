@@ -13,6 +13,9 @@ export type Listing = {
   pricePerNight: number;
   rating: number;
   reviews: number;
+  imageUrl: string;
+  imageAlt: string;
+  galleryImages: string[];
   badge?: string;
   tone: string;
 };

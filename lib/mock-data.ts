@@ -20,6 +20,13 @@ export const listings: Listing[] = [
     pricePerNight: 122,
     rating: 4.91,
     reviews: 128,
+    imageUrl: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Modern apartment living room with natural light",
+    galleryImages: [
+      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     badge: "Guest favorite",
     tone: "from-amber-200 via-orange-100 to-rose-200",
   },
@@ -33,6 +40,13 @@ export const listings: Listing[] = [
     pricePerNight: 98,
     rating: 4.83,
     reviews: 84,
+    imageUrl: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Cozy patio home with warm decor",
+    galleryImages: [
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     tone: "from-stone-200 via-amber-100 to-yellow-100",
   },
   {
@@ -45,6 +59,13 @@ export const listings: Listing[] = [
     pricePerNight: 140,
     rating: 4.95,
     reviews: 211,
+    imageUrl: "https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Bright coastal apartment near the sea",
+    galleryImages: [
+      "https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/2029694/pexels-photo-2029694.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     badge: "Super host",
     tone: "from-sky-200 via-cyan-100 to-blue-100",
   },
@@ -58,6 +79,13 @@ export const listings: Listing[] = [
     pricePerNight: 115,
     rating: 4.79,
     reviews: 66,
+    imageUrl: "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Loft with terrace and city view",
+    galleryImages: [
+      "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/3935336/pexels-photo-3935336.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     tone: "from-rose-200 via-pink-100 to-orange-100",
   },
   {
@@ -70,6 +98,13 @@ export const listings: Listing[] = [
     pricePerNight: 89,
     rating: 4.88,
     reviews: 102,
+    imageUrl: "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Cabin retreat surrounded by green mountains",
+    galleryImages: [
+      "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     tone: "from-emerald-200 via-lime-100 to-green-100",
   },
   {
@@ -82,6 +117,13 @@ export const listings: Listing[] = [
     pricePerNight: 156,
     rating: 4.86,
     reviews: 149,
+    imageUrl: "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Spacious family loft with dining area",
+    galleryImages: [
+      "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     badge: "Great for groups",
     tone: "from-indigo-200 via-violet-100 to-fuchsia-100",
   },
@@ -95,6 +137,13 @@ export const listings: Listing[] = [
     pricePerNight: 101,
     rating: 4.74,
     reviews: 54,
+    imageUrl: "https://images.pexels.com/photos/2029734/pexels-photo-2029734.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Sunny studio near the beach at sunset",
+    galleryImages: [
+      "https://images.pexels.com/photos/2029734/pexels-photo-2029734.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     tone: "from-orange-200 via-amber-100 to-yellow-100",
   },
   {
@@ -107,6 +156,13 @@ export const listings: Listing[] = [
     pricePerNight: 133,
     rating: 4.9,
     reviews: 93,
+    imageUrl: "https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Riverside apartment with modern interior",
+    galleryImages: [
+      "https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
     tone: "from-slate-200 via-zinc-100 to-stone-100",
   },
 ];
@@ -139,7 +195,7 @@ export const rooms: Room[] = listings.map((listing) => ({
     yearsHosting: 2 + (listing.id.length % 6),
     avatarTone: listing.tone,
   },
-  images: [listing.tone, "from-zinc-200 via-stone-100 to-slate-200", "from-sky-200 via-blue-100 to-cyan-100"],
+  images: listing.galleryImages,
   amenities: defaultAmenities,
 }));
 

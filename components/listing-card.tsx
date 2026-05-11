@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Listing } from "@/lib/types";
 
@@ -16,6 +17,13 @@ const ListingCard = ({ listing, variant = "grid" }: ListingCardProps) => {
           isList ? "h-28 w-32" : "aspect-[4/3] w-full"
         }`}
       >
+        <Image
+          alt={listing.imageAlt}
+          className="object-cover"
+          fill
+          sizes={isList ? "(max-width: 768px) 50vw, 180px" : "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"}
+          src={listing.imageUrl}
+        />
         {listing.badge ? (
           <span className="absolute left-2 top-2 rounded-full bg-white px-2 py-0.5 text-[10px] font-semibold text-black/75 shadow-sm">
             {listing.badge}

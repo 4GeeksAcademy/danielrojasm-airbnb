@@ -1,5 +1,7 @@
+import Image from "next/image";
+
 type RoomGallerySectionProps = {
-  imageTone: string;
+  imageUrl: string;
   imageIndex: number;
   imageCount: number;
   onPrev: () => void;
@@ -7,7 +9,7 @@ type RoomGallerySectionProps = {
 };
 
 const RoomGallerySection = ({
-  imageTone,
+  imageUrl,
   imageIndex,
   imageCount,
   onPrev,
@@ -15,7 +17,15 @@ const RoomGallerySection = ({
 }: RoomGallerySectionProps) => {
   return (
     <section className="relative overflow-hidden rounded-2xl border border-black/10 bg-white p-3 shadow-sm">
-      <div className={`h-64 rounded-xl bg-gradient-to-br ${imageTone}`} />
+      <div className="relative h-64 overflow-hidden rounded-xl">
+        <Image
+          alt={`Room photo ${imageIndex + 1}`}
+          className="object-cover"
+          fill
+          sizes="(max-width: 768px) 100vw, 960px"
+          src={imageUrl}
+        />
+      </div>
       <div className="absolute bottom-5 left-6 right-6 flex items-center justify-between">
         <button className="rounded-full border border-black/10 bg-white px-3 py-1 text-xs font-semibold" onClick={onPrev} type="button">
           Prev
